@@ -28,3 +28,7 @@
 [submodule "lib/mbedtls"]
 	path = lib/mbedtls
 	url = https://github.com/Mbed-TLS/mbedtls.git
+[submodule "applications/doom-flipper-zero"]
+	path = applications/doom-flipper-zero
+	url = https://github.com/p4nic4ttack/doom-flipper-zero
+
