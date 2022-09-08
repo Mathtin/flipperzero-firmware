@@ -3,7 +3,7 @@ App(
     name="Flipper Flappy Bird",
     apptype=FlipperAppType.PLUGIN,
     entry_point="flappy_game_app",
-    cdefines=["APP_HELLO_WORLD"],
+    cdefines=["APP_FLAPPY_GAME"],
     requires=[
         "gui",
     ],
