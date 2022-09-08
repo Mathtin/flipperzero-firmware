@@ -38,5 +38,6 @@ App(
         "snake_game",
         "bt_hid",
         "flappy_bird",
+        "doom_game",
     ],
 )
