@@ -208,7 +208,7 @@ int32_t flappy_game_app() {
 
     GameEvent event;
     for(bool processing = true; processing;) {
-        FuriStatus event_status = furi_message_queue_put(event_queue, &event, 100);
+        FuriStatus event_status = furi_message_queue_get(event_queue, &event, 100);
         GameState* game_state = (GameState*)acquire_mutex_block(&state_mutex);
 
         if(event_status == FuriStatusOk) {
