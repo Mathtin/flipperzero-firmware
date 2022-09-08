@@ -33,6 +33,11 @@ ENV.AppendUnique(
         "-g",
         # "-Wno-stringop-overread",
         # "-Wno-stringop-overflow",
+
+        # For doom plugin
+        "-Wno-unused-parameter",
+        "-Wno-type-limits",
+        "-Wno-unused-variable",
     ],
     CPPDEFINES=[
         "_GNU_SOURCE",
